@@ -4,11 +4,16 @@
   "description": "treinamento curso de programação curso.dev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
   }
 }
